@@ -14,11 +14,9 @@
 
    * At terminal, check that if you have Node.js installed. If installed, then move to the new cloned directory by using `cd` command.
 
-   * From inside that new directory, run the following command to install all dependencies
-                    `npm install`
+   * From inside that new directory, run the following command to install all dependencies `npm install`
 
-    and after that start the server with the following:
-                    `npm start`
+   * And after that, start the server with the `npm start` command in terminal.
 
    * The My Reads App will automatically open in the    browser. You can run manually from [click here](http://localhost:3000/) too.
 
@@ -44,4 +42,4 @@
 
    * For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-    **Thank You**
+**Thank You**
