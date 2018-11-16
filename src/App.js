@@ -16,8 +16,10 @@ class BooksApp extends React.Component {
   }
 
   moveShelf = (book, shelf) => {
-    BooksAPI.update(book, shelf);
-    this.refresh();
+    BooksAPI.update(book, shelf)
+      .then(() => {
+        this.refresh();
+    });
   }
 
   refresh() {
